@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+h1 {
+    padding-bottom: 2%;
+
+}
+
+h2 {
+    text-transform: capitalize;
+    color: rgb(172, 172, 165);
+    padding-top: 0px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav>ul>li>a,
+nav>ul li {
+    text-decoration: none;
+    color: rgb(23, 27, 70);
+
+}
